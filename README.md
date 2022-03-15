@@ -1,15 +1,13 @@
-# Basic Sample Hardhat Project
+# Connect Wallet and MintButton Prototype
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This page has basic connect wallet functionality (the production build will probably use Web3Modal) and a mint button to mint NFTs on testnet. The etherscan link where you can monitor contract transactions is: https://rinkeby.etherscan.io/address/0x8C72DBb556f31Cfd23C075598bD70Fa03EfaBa64#code
 
-Try running some of the following tasks:
+To use, setup a metamask account (do not use your real account as this is a prototype) and connect to the Rinkeby Network.
+You can get testnet ETH here: https://faucets.chain.link/rinkeby
+
+To run this project, clone the repo and run:
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+npm install
+npm run start
 ```
